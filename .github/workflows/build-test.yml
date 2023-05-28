@@ -2,8 +2,8 @@ name: Build and Test
 
 # Environment variables available to all jobs and steps in this workflow.
 env:
-  FLUTTER_VERSION: '3.10.1'
-  FLUTTER_CHANNEL: 'stable'
+  FLUTTER_VERSION: "3.10.2"
+  FLUTTER_CHANNEL: "stable"
 
 # Controls when the workflow will run
 on:
@@ -33,8 +33,8 @@ jobs:
       - name: Install Flutter
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.10.1'
-          channel: 'stable'
+          flutter-version: ${{ env.FLUTTER_VERSION }}
+          channel: ${{ env.FLUTTER_CHANNEL }}
 
       # Installs project dependencies
       - name: Install dependencies
