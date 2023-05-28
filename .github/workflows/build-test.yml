@@ -2,7 +2,7 @@ name: Build and Test
 
 # Environment variables available to all jobs and steps in this workflow.
 env:
-  FLUTTER_VERSION: '3.10.2'
+  FLUTTER_VERSION: '3.10.1'
   FLUTTER_CHANNEL: 'stable'
 
 # Controls when the workflow will run
