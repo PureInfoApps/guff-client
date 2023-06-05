@@ -19,7 +19,7 @@ analyzer:
     - "lib/l10n/**"
     - "test/widget_test.dart"
   plugins:
-    - string_literal_finder
+    - custom_lint
 
   # For more information see:
   # https://dart.dev/guides/language/analysis-options#enabling-additional-type-checks
